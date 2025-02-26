@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 ""syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'yuesk/vim-js'
+Plig 'pangloss/vim-javascript'
 Plug 'flowtype/vim-flow'
 
 ""Satus bar
@@ -46,6 +46,8 @@ Plug 'scrooloose/nerdcommenter'
 "Tools DevOps
 Plug 'pearofducks/ansible-vim', { 'do': './UltinSnips/generate.sh' }
 ""Developers
+""Rust
+Plug 'rust-lang/rust.vim'
 ""Golang
 Plug 'fatih/vim-go', {'tag': '*'}
 ""Git
