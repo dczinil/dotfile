@@ -32,10 +32,10 @@ set expandtab
 set t_Co=256
 colorscheme gruvbox 
 set bg=dark
-"let g:gruvbox_contrat_dark = "hard"
+let g:gruvbox_contrat_dark = "hard"
 highlight Normal ctermbg=NONE
-"let g:lightline = {}
-"let g:lightline.colorscheme = 'gruvbox'
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
 set laststatus=2
 let mapleader=" "
 ""Vim-tag
