@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 ""syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'HerringtonDarkholme/yats.vim'
-Plig 'pangloss/vim-javascript'
+Plug 'pangloss/vim-javascript'
 Plug 'flowtype/vim-flow'
 
 ""Satus bar
@@ -14,6 +14,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'morhetz/gruvbox'
 "Plug 'itchyny/lightline-gruvbox.vim'
 "Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'sainnhe/vim-color-forest-night'
 ""Tree
 Plug 'scrooloose/nerdtree'
 
@@ -45,15 +46,23 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 "Tools DevOps
 Plug 'pearofducks/ansible-vim', { 'do': './UltinSnips/generate.sh' }
+Plug 'tpope/vim-fugitive'
+Plug 'kevinhui/vim-docker-tools'
+Plug 'ekalinin/dockerfile.vim'
 ""Developers
 ""Rust
 Plug 'rust-lang/rust.vim'
 ""Golang
 Plug 'fatih/vim-go', {'tag': '*'}
+""Python
+Plug 'hdima/python-syntax'
+Plug 'jmcantrell/vim-virtualenv'
+Plug 'pappasam/coc-jedi'
 ""Git
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
-
+Plug 'vim-scripts/vim-gitgutter'
+Plug 'mhinz/vim-signify'
 ""other
 Plug 'easymotion/vim-easymotion'
 
