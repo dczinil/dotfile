@@ -44,6 +44,10 @@ Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
+" Track the engine.
+Plug 'SirVer/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
 "Tools DevOps
 Plug 'pearofducks/ansible-vim', { 'do': './UltinSnips/generate.sh' }
 Plug 'tpope/vim-fugitive'
@@ -68,6 +72,8 @@ Plug 'easymotion/vim-easymotion'
 
 ""file
 Plug 'scrooloose/nerdtree'
-
+Plug 'liuchengxu/graphviz.vim'
+Plug 'majutsushi/tagbar'
+Plug 'ludovicchabant/vim-gutentags'
 
 call plug#end()
